@@ -8,9 +8,9 @@ const Index = () => {
   return (
     <VStack spacing={4}>
       <Heading>Welcome to my app!</Heading>
-      
+
       <Link to="/pong">
-        <Button colorScheme="blue">Play Pong</Button>
+        <Button colorScheme="red">Play Pong</Button>
       </Link>
     </VStack>
   );
